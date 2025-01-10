@@ -1,0 +1,10 @@
+/* banner styling */
+
+.banner {
+
+    display: flex;
+}
+
+.banner-content {
+    font-weight: 600;
+}
