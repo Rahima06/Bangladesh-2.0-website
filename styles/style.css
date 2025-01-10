@@ -1,10 +1,44 @@
+.open-sans {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
 /* banner styling */
 
 .banner {
 
     display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    background-color: rgb(198, 225, 207);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30p;
 }
 
-.banner-content {
+.banner-pic {
+    width: ;
+}
+
+
+.banner-greetings {
     font-weight: 600;
+    font-size: small;
+    color: rgba(14, 14, 14, 0.5);
+    row-gap: 0;
+
+}
+
+.btn-primary {
+    font-size: small;
+    padding: 10px 5px;
+    border: none;
+    color: white;
+    background-color: rgba(0, 106, 80, 1);
+    border-radius: 5px;
 }
