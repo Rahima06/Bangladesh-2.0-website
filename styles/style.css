@@ -16,13 +16,15 @@
     justify-content: space-evenly;
     gap: 30px;
     background-color: rgb(198, 225, 207);
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 30p;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 60px;
+    border-radius: 18px;
+    align-content: center
 }
 
-.banner-pic {
-    width: ;
+.banner-photo {
+    width: 500px;
 }
 
 
@@ -41,4 +43,54 @@
     color: white;
     background-color: rgba(0, 106, 80, 1);
     border-radius: 5px;
+}
+
+/*styling vision*/
+
+.vision {
+
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+
+.digital-container {
+    padding: 60px 60px;
+    background-color: #81B4FC;
+    border-radius: 10px
+}
+
+.green-container {
+    padding: 60px 60px;
+    background-color: #bcedd7;
+    border-radius: 10px
+}
+
+.modern-container {
+
+    padding: 60px 60px;
+    background-color: #FFD55D;
+    border-radius: 10px
+}
+
+.title {
+
+    background-color: white;
+    margin-left: 160px;
+    margin-right: 160px;
+    border-radius: 10px;
+
+
+}
+
+.second {
+    display: flex;
+
+}
+
+.third {
+    display: flex;
 }
