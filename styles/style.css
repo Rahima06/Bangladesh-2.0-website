@@ -94,3 +94,36 @@
 .third {
     display: flex;
 }
+
+/* Donate styling */
+
+.donate-title {
+    text-align: center;
+}
+
+.card {
+
+    padding: 5px 15px;
+    background-color: rgb(216, 213, 213);
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.card-flex {
+
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.green {
+
+    background-color: rgb(73, 162, 73);
+}
+
+.holder {
+    width: 450px;
+    margin-left: 458px;
+    margin-right: 2px;
+}
