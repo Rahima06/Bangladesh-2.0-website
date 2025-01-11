@@ -86,6 +86,11 @@
 
 }
 
+.radius {
+
+    border-radius: 10px;
+}
+
 .second {
     display: flex;
 
@@ -99,14 +104,17 @@
 
 .donate-title {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .card {
-
-    padding: 5px 15px;
+    width: 300px;
+    padding: 25px 25px;
     background-color: rgb(216, 213, 213);
     text-align: center;
     border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: 600;
 
 }
 
@@ -122,8 +130,18 @@
     background-color: rgb(73, 162, 73);
 }
 
-.holder {
-    width: 450px;
-    margin-left: 458px;
-    margin-right: 2px;
+#amount {
+    margin-bottom: 30px;
+    text-align: center;
+    width: 1010px;
+    margin-left: 160px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border-color: rgb(180, 182, 184);
+
+
+
 }
